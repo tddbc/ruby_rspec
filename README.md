@@ -28,7 +28,7 @@ Finished in 0.00059 seconds
 Randomized with seed 29844
 ```
 
-のようにテストが正常すればOKです。
+のようにテストが正常終了すればOKです。
 
 ## ライブラリ
 ### [guard](https://github.com/guard/guard)
