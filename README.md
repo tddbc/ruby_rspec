@@ -28,6 +28,8 @@ Finished in 0.00059 seconds
 Randomized with seed 29844
 ```
 
+のようにテストが正常すればOKです。
+
 ## ライブラリ
 ### [guard](https://github.com/guard/guard)
 `guard` コマンドを実行すると入力待ちの状態になるので、あとはファイルが変更される度にテストが実行されます
@@ -41,4 +43,4 @@ notifu: http://www.paralint.com/projects/notifu/
 growl: http://growl.info/
 
 #### 他Unix系(Linux, FreeBSD, OpenBSD and Solaris)
-https: https://developer.gnome.org/libnotify/
+libnotify: https://developer.gnome.org/libnotify/
