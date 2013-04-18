@@ -19,8 +19,8 @@ bundle install
 $ rspec
 
 Sample
-  #say
-    should return 'Hello TDD BootCamp!'
+  greeting
+    should eq "Hello TDD BootCamp!"
 
 Finished in 0.00059 seconds
 1 example, 0 failures
