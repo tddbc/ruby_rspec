@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 class Sample
-  def say
+  def greeting
     "Hello TDD BootCamp!"
   end
 end
