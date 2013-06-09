@@ -2,6 +2,11 @@
 require 'spec_helper'
 
 describe Sample do
-  subject { Sample.new }
-  its(:greeting) { should eq "Hello TDD BootCamp!" }
+  let(:sample){ Sample.new }
+
+  describe "#say" do
+    subject { sample.say(greeting) }
+    let(:greeting){ "Hello" }
+    it { should eq "Hello TDD BootCamp!" }
+  end
 end
