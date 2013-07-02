@@ -4,8 +4,9 @@ TDDBC for Ruby with RSpec
 これは、TDDBCのRuby向けRSpecプロジェクトです。
 
 ## 動作確認環境
-* ruby 2.0.0p0
-* ruby 1.9.3p392
+* ruby 2.0.0
+* ruby 1.9.3
+* ruby 1.9.2
 
 ## セットアップ
 ```bash
