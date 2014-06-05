@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-require 'spec_helper'
 
 describe Sample do
   let(:sample){ Sample.new }
