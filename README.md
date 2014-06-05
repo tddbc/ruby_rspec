@@ -4,6 +4,7 @@ TDDBC for Ruby with RSpec
 これは、TDDBCのRuby向けRSpecプロジェクトです。
 
 ## 動作確認環境
+* ruby 2.1.0
 * ruby 2.0.0
 * ruby 1.9.3
 * ruby 1.9.2
@@ -20,13 +21,14 @@ bundle install
 $ rspec
 
 Sample
-  greeting
-    should eq "Hello TDD BootCamp!"
+  #say
+    Using expect to
+      should say 'Hello TDD BootCamp!'
+    Using subject it should
+      should eq "Yeah! TDD BootCamp!"
 
-Finished in 0.00059 seconds
-1 example, 0 failures
-
-Randomized with seed 29844
+Finished in 0.00218 seconds (files took 0.1389 seconds to load)
+2 examples, 0 failures
 ```
 
 のようにテストが正常終了すればOKです。
