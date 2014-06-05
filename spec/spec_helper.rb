@@ -14,6 +14,12 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+# Requires supporting ruby files with custom matchers and macros, etc,
+# in lib/ and its subdirectories.
+root_dir = File.expand_path(File.dirname(__FILE__) + "/..")
+Dir["#{root_dir}/lib/**/*.rb"].each { |f| require f }
+
 RSpec.configure do |config|
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
