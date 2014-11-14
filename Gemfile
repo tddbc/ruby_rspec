@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'rspec', '~> 3.0.0'
+  gem 'rspec', '~> 3.1.0'
 
-  gem 'guard-rspec', "~> 4.2.9"
+  gem 'guard-rspec', "~> 4.3.1"
 
   # Runs on Mac OS X
   gem 'growl'
