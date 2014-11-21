@@ -20,6 +20,8 @@
 root_dir = File.expand_path(File.dirname(__FILE__) + "/..")
 Dir["#{root_dir}/lib/**/*.rb"].each { |f| require f }
 
+require "rspec-power_assert"
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest

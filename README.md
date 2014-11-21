@@ -8,7 +8,8 @@ TDDBC for Ruby with RSpec
 ## 動作確認環境
 * ruby 2.1.x
 * ruby 2.0.x
-* ruby 1.9.x
+
+ruby 1.9以前では動きません
 
 ## セットアップ
 ```bash
