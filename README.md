@@ -9,6 +9,7 @@ TDDBC for Ruby with RSpec
 * ruby 2.1.x
 * ruby 2.0.x
 * ruby 1.9.x
+  * 1.9系はpower_assertは非対応
 
 ## セットアップ
 ```bash

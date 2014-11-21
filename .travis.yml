@@ -11,5 +11,6 @@ notifications:
   email: false
 matrix:
   allow_failures:
+    - rvm: 1.9
     - rvm: 2.2
     - rvm: ruby-head
