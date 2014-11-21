@@ -9,6 +9,8 @@ TDDBC for Ruby with RSpec
 * ruby 2.1.x
 * ruby 2.0.x
 
+ruby 1.9以前では動きません
+
 ## セットアップ
 ```bash
 gem install bundler
