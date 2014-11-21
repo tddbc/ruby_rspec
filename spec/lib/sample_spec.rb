@@ -18,5 +18,13 @@ describe Sample do
       let(:greeting){ "Yeah!" }
       it { should eq "Yeah! TDD BootCamp!" }
     end
+
+    describe "Using power assert " do
+      let(:greeting){ "Wow!" }
+
+      it do
+        is_asserted_by{ sample.say(greeting) == "Wow! TDD BootCamp!" }
+      end
+    end
   end
 end
