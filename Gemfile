@@ -4,7 +4,7 @@ group :development do
   gem 'rspec'
   gem 'rspec-power_assert'
 
-  gem 'guard-rspec', "~> 4.3.1"
+  gem 'guard-rspec'
 
   # Runs on Mac OS X
   gem 'growl'
