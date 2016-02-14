@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-  - 2.0
   - 2.1
   - 2.2
+  - 2.3.0
   - ruby-head
 script:
   - bundle exec rspec
@@ -10,5 +10,4 @@ notifications:
   email: false
 matrix:
   allow_failures:
-    - rvm: 2.2
     - rvm: ruby-head

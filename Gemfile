@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'rspec', '~> 3.1.0'
+  gem 'rspec'
   gem 'rspec-power_assert'
 
-  gem 'guard-rspec', "~> 4.3.1"
+  gem 'guard-rspec'
 
   # Runs on Mac OS X
   gem 'growl'

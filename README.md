@@ -6,10 +6,7 @@ TDDBC for Ruby with RSpec
 [![Build Status](https://travis-ci.org/tddbc/ruby_rspec.svg?branch=master)](https://travis-ci.org/tddbc/ruby_rspec)
 
 ## 動作確認環境
-* ruby 2.1.x
-* ruby 2.0.x
-
-ruby 1.9以前では動きません
+* ruby 2.1以降
 
 ## セットアップ
 ```bash

@@ -1,5 +1,3 @@
-# -*- encoding: utf-8 -*-
-
 describe Sample do
   let(:sample){ Sample.new }
 
