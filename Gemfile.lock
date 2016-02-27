@@ -67,6 +67,7 @@ DEPENDENCIES
   growl
   guard-rspec
   libnotify
+  pry
   rb-notifu
   rspec
   rspec-power_assert

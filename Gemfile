@@ -12,4 +12,6 @@ group :development do
   gem 'libnotify'
   # Runs on Windows
   gem 'rb-notifu'
+
+  gem 'pry'
 end
