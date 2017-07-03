@@ -6,7 +6,7 @@ TDDBC for Ruby with RSpec
 [![Build Status](https://travis-ci.org/tddbc/ruby_rspec.svg?branch=master)](https://travis-ci.org/tddbc/ruby_rspec)
 
 ## 動作確認環境
-* ruby 2.1以降
+* ruby 2.2以降
 
 ## セットアップ
 ```bash
@@ -25,9 +25,17 @@ Sample
       should say 'Hello TDD BootCamp!'
     Using subject it should
       should eq "Yeah! TDD BootCamp!"
+    Using power assert
+      should
+            be asserted by{ sample.say(greeting) == "Wow! TDD BootCamp!" }
+                            |      |   |         |
+                            |      |   |         true
+                            |      |   "Wow!"
+                            |      "Wow! TDD BootCamp!"
+                            #<Sample:0x007f8e9cb45cf8>
 
-Finished in 0.00218 seconds (files took 0.1389 seconds to load)
-2 examples, 0 failures
+Finished in 0.00321 seconds (files took 0.14054 seconds to load)
+3 examples, 0 failures
 ```
 
 のようにテストが正常終了すればOKです。
