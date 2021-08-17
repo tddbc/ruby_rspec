@@ -23,6 +23,7 @@ root_dir = File.expand_path(File.dirname(__FILE__) + "/..")
 Dir["#{root_dir}/lib/**/*.rb"].each { |f| require f }
 
 require "rspec-power_assert"
+require 'rspec-parameterized'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
