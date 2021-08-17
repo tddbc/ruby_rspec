@@ -55,7 +55,7 @@ describe "整数閉区間を示す ClosedRange クラス" do
     end
   end
 
-  describe "#within?" do
+  describe "#includes?" do
     where(:case_name, :lower_endpoint, :upper_endpoint, :target_integer, :expected) do
       [
         ["含む場合-下端点と同値", 3, 7, 3, true],
