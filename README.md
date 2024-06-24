@@ -12,6 +12,7 @@ TDDBC for Ruby with RSpec
 ```bash
 gem install bundler
 bundle install
+bundle update
 ```
 
 `rspec` コマンドを実行して
